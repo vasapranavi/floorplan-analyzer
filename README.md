@@ -38,5 +38,6 @@ Code is also covered with unit tests same can be found in tests folder of the pr
 
 # Sample output
 below is the sample output from the program
+
 ![image](https://user-images.githubusercontent.com/46113594/163732487-6f6d0eaa-8cf2-45b2-886c-1cccec5b6f1f.png)
 
