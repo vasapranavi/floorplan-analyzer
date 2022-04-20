@@ -13,7 +13,7 @@ def main():
         # Get the file name from the command line.
         file_name = readInputFromCommandLine()
         # Read the file.
-        rows = readFromFile('resources/'+file_name)
+        rows = readFromFile(file_name)
         # Process the rows.
         rooms = processRows(rows)
         # Calculate the total and print output.
