@@ -1,6 +1,6 @@
 from re import finditer, search
-from floor_plan_puzzle.schemas.row_segment import RowSegment
-from floor_plan_puzzle.schemas.space import Space
+from schemas.row_segment import RowSegment
+from schemas.space import Space
 
 
 def processRows(rows):

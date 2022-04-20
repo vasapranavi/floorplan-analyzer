@@ -1,4 +1,4 @@
-from floor_plan_puzzle.schemas.space import Space
+from schemas.space import Space
 
 
 def calTotal(rooms):

@@ -1,8 +1,8 @@
-from floor_plan_puzzle.process.process_rows import processRows
-from floor_plan_puzzle.process.sorting import resturnSorted
-from floor_plan_puzzle.process.total import calTotal
-from floor_plan_puzzle.utils.output import printOutput
-from floor_plan_puzzle.utils.read_inputs import readFromFile, readInputFromCommandLine
+from process.process_rows import processRows
+from process.sorting import resturnSorted
+from process.total import calTotal
+from utils.output import printOutput
+from utils.read_inputs import readFromFile, readInputFromCommandLine
 
 
 def main():
@@ -13,7 +13,7 @@ def main():
         # Get the file name from the command line.
         file_name = readInputFromCommandLine()
         # Read the file.
-        rows = readFromFile('../resources/'+file_name)
+        rows = readFromFile('resources/'+file_name)
         # Process the rows.
         rooms = processRows(rows)
         # Calculate the total and print output.
