@@ -36,8 +36,17 @@ enter the filepath of floorplan text file, it outputs the result as per objectiv
 # Unit tests
 Code is also covered with unit tests same can be found in tests folder of the project
 
-# Sample output
+# Instructions to run with command prompt and Sample output
+1. Checkout/clone the repo form github
+2. navigate to floor_plan_puzzle directory
+3. run `py main.py`
+4. enter the file name, in this case the floorplan file is located in resources directory, hence the value given as `../resources/floorplan01.txt`
+5. output follows
+
+![image](https://user-images.githubusercontent.com/46113594/164204815-f165c159-137f-470d-9ab6-d3581082ccb2.png)
+
 below is the sample output from the program
 
 ![image](https://user-images.githubusercontent.com/46113594/163732487-6f6d0eaa-8cf2-45b2-886c-1cccec5b6f1f.png)
+
 
